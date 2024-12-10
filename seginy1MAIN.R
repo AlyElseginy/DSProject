@@ -14,3 +14,4 @@ outlier # In this specific case and context of grocery sets, it isn't required t
 
 # Summary: Three methods were used in order to clean the data. Checking duplicates, checking
 # NA values, and illogical outliers. Results only concluded two errors, being 2 duplicates.
+#test test
