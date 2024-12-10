@@ -1,3 +1,4 @@
+# Change the working directory to the folder containing the .csv file
 data <- read.csv("grc.csv") # This line is used to extract the excel file from my directory.
 data # Calling the database.
 sum (duplicated(data)) # Checking out number of duplicates, there are exactly 2.
@@ -11,5 +12,5 @@ outlier # In this specific case and context of grocery sets, it isn't required t
 # , and not ridiculous. 
 
 
-# Summary: Three methods were used inorder to clean the data. Checking duplicates, checking
+# Summary: Three methods were used in order to clean the data. Checking duplicates, checking
 # NA values, and illogical outliers. Results only concluded two errors, being 2 duplicates.
